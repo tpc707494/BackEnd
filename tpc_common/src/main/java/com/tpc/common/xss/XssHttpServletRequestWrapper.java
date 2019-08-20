@@ -1,4 +1,4 @@
-package com.tpc.xss;
+package com.tpc.common.xss;
 
 import org.jsoup.Jsoup;
 import org.jsoup.safety.Whitelist;

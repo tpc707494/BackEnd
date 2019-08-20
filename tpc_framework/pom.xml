@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>tpc-framework</artifactId>
+    <artifactId>tpc_framework</artifactId>
 
     <dependencies>
 
@@ -23,6 +23,16 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+        <!--阿里数据库连接池 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid-spring-boot-starter</artifactId>
+        </dependency>
+        <!-- 系统模块-->
+        <dependency>
+            <groupId>com.tpc</groupId>
+            <artifactId>tpc_system</artifactId>
         </dependency>
     </dependencies>
 

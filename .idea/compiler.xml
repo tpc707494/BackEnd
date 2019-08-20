@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="tpc_common" />
+        <module name="tpc_system" />
         <module name="tpc_admin" />
         <module name="tpc_framework" />
       </profile>

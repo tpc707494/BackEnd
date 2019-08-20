@@ -178,13 +178,19 @@
             <!-- 通用工具-->
             <dependency>
                 <groupId>com.tpc</groupId>
-                <artifactId>tpc-common</artifactId>
+                <artifactId>tpc_common</artifactId>
                 <version>${tpc.version}</version>
             </dependency>
             <!-- 通用工具-->
             <dependency>
                 <groupId>com.tpc</groupId>
-                <artifactId>tpc-framework</artifactId>
+                <artifactId>tpc_framework</artifactId>
+                <version>${tpc.version}</version>
+            </dependency>
+            <!-- 系统工具-->
+            <dependency>
+                <groupId>com.tpc</groupId>
+                <artifactId>tpc_system</artifactId>
                 <version>${tpc.version}</version>
             </dependency>
         </dependencies>
@@ -194,6 +200,7 @@
         <module>tpc_common</module>
         <module>tpc_admin</module>
         <module>tpc_framework</module>
+        <module>tpc_system</module>
     </modules>
 
     <build>

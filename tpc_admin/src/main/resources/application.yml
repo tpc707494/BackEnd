@@ -1,4 +1,7 @@
 
+tpc:
+  version: 4.0.0
+  name: tpc
 # Spring配置
 spring:
   # 模板引擎

@@ -58,7 +58,7 @@
         <!-- 核心模块-->
         <dependency>
             <groupId>com.tpc</groupId>
-            <artifactId>tpc-framework</artifactId>
+            <artifactId>tpc_framework</artifactId>
         </dependency>
     </dependencies>
     <build>
